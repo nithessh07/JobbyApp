@@ -1,0 +1,26 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+.not-found-img {
+  width: 400px;
+  margin-top: 100px;
+}
+
+.not-found-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found-head {
+  color: #ffffff;
+}
+
+.not-found-para {
+  color: #ffffff;
+  margin-top: 0px;
+}

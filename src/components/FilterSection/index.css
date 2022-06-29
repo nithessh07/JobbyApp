@@ -1,0 +1,47 @@
+.type-container {
+  margin-top: 25px;
+  padding-top: 10px;
+  border-top: 2px solid #475569;
+}
+
+@media screen and (max-width: 768px) {
+  .type-container {
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+
+  .type-head {
+    font-size: 11px;
+  }
+}
+
+.type-head {
+  color: #b6c5ff;
+  font-size: 15px;
+}
+
+.type-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.type-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.type-list-para {
+  color: #ffffff;
+  font-size: 11px;
+  margin-left: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
